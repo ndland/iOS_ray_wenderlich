@@ -17,6 +17,7 @@
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
 		DA3FB658228C83A3004F20F9 /* AppModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3FB657228C83A3004F20F9 /* AppModelTests.swift */; };
+		DABD95CF234409C40008709E /* StepCountControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABD95CE234409C40008709E /* StepCountControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DA3FB65B228C84CC004F20F9 /* FitNessTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitNessTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA4841C3228C80FB00246D83 /* FitNessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitNessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4841C7228C80FC00246D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABD95CE234409C40008709E /* StepCountControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCountControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,11 +139,36 @@
 		DA4841C4228C80FC00246D83 /* FitNessTests */ = {
 			isa = PBXGroup;
 			children = (
+				DABD95D023440A050008709E /* Cases */,
 				DA4841C7228C80FC00246D83 /* Info.plist */,
-				DA3FB657228C83A3004F20F9 /* AppModelTests.swift */,
 				DA3FB65B228C84CC004F20F9 /* FitNessTests-Bridging-Header.h */,
 			);
 			path = FitNessTests;
+			sourceTree = "<group>";
+		};
+		DABD95D023440A050008709E /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				DABD95D123440A140008709E /* App Model */,
+				DABD95D223440A1A0008709E /* UI Layer */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		DABD95D123440A140008709E /* App Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA3FB657228C83A3004F20F9 /* AppModelTests.swift */,
+			);
+			path = "App Model";
+			sourceTree = "<group>";
+		};
+		DABD95D223440A1A0008709E /* UI Layer */ = {
+			isa = PBXGroup;
+			children = (
+				DABD95CE234409C40008709E /* StepCountControllerTests.swift */,
+			);
+			path = "UI Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA3FB658228C83A3004F20F9 /* AppModelTests.swift in Sources */,
+				DABD95CF234409C40008709E /* StepCountControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
